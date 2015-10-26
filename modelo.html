@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Musicmeet</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- parte do mapbox -->
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+    <!-- fim parte do mapbox -->
+
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+  </head>
+
+  <body>
+
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- adicionei id "map" pra lodear o mapa -->
+    <div class="jumbotron" id="map">
+    <nav class="navbar  navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          
+            <img class="logo" src="images/logo.png">
+
+        </div>
+
+      </div>
+    </nav>
+      <!-- script pra lodear o mapa -->
+    <script type="text/javascript"> //inicializcao do mapbox
+      L.mapbox.accessToken = 'pk.eyJ1IjoibHVjYXNuZXVtYW5uIiwiYSI6IjAyYzQ1MGRiY2VkZjZmZjhjZjVhOGRjN2JkMmVlZTVkIn0.2kYn63mRgYlfrzc6ROR8Ug';
+     var map = L.mapbox.map('map', 'lucasneumann.4dbde3ed', {
+      zoomControl: false
+     }).setView([-23.547, -46.633], 15);
+
+      map.touchZoom.disable();
+      map.doubleClickZoom.disable();
+      map.scrollWheelZoom.disable();
+    </script><!-- fim script lodear mapa -->
+  
+    <!-- add alguns pontos no mapa -->
+    <script type="text/javascript">
+      var mmmicon = L.icon({
+        iconUrl: 'images/map_icon-06.png',
+        // iconRetinaUrl: 'my-icon@2x.png',
+        iconSize: [24, 30],
+        iconAnchor: [11, 30],
+        popupAnchor: [0, -30],
+        // shadowUrl: 'my-icon-shadow.png',
+        // shadowRetinaUrl: 'my-icon-shadow@2x.png',
+        // shadowSize: [68, 95],
+        // shadowAnchor: [22, 94]
+      });
+
+
+      L.marker([-23.556, -46.620], {icon: mmmicon})
+        .bindPopup('<p id="fernando_popup" class="popup">Fernando Souza' +
+          '<a href="#"><img  src="images/message.png" height="10"></a>' +
+          '</p>' +
+          '<div id="popup_wrapper">' +
+          '<p>Procurando uma galera em Pinheiros/Vila Madalena pra tocar covers só pela curtição, sem compromisso! Bora!</p>' +
+          '<h2>Toca</h2>' +
+          '<ul id="instrumentos">' +
+            '<li><p><strong>Voz</strong> há 2 anos</p></li>' +
+            '<li><p><strong>Bateria</strong> desde sempre</p></li>' +
+          '</ul>' +
+          '<h2>Estilos</h2>' +
+          '<ul id="estilos">' +
+            '<li>Indie Rock</li>' +
+            '<li>Pop Rock</li>' +
+            '<li>Groove</li>' +
+            '<li>Funk</li>'+
+          '</ul>' +
+          '<h2>Ouça uma demo</h2>' +
+          '<ul id="demos">' +
+            '<li><a href="http://soundcloud.com" target="_blank"><img src="images/sc.jpg" width="35" height="35"></a></li>' +
+            '<li><a href="http://youtube.com" target="_blank"><img src="images/yt.jpg" width="35" height="35"></a></li>' +
+          '</ul>' +
+          '</div>')
+        .addTo(map)
+        .openPopup();
+
+        L.marker([-23.544, -46.643], {icon: mmmicon})
+        .bindPopup('<p id="adriano_popup" class="popup">Adriano Forpado' +
+          '<a href="#"><img  src="images/message.png" height="10"></a>' +
+          '</p>' +
+          '<div id="popup_wrapper">' +
+          '<p>Toco samba e rockzinhos brasileiros e internacionais, tipo Los Hermanos e Red Hot</p>' +
+          '<h2>Toca</h2>' +
+          '<ul id="instrumentos">' +
+            '<li><p><strong>Violão</strong> há 3 anos</p></li>' +
+            '<li><p><strong>Cuica</strong> desde sempre</p></li>' +
+          '</ul>' +
+          '<h2>Estilos</h2>' +
+          '<ul id="estilos">' +
+            '<li>Samba</li>' +
+            '<li>Pop Rock</li>' +
+            '<li>MPB</li>' +
+          '</ul>' +
+          '<h2>Ouça uma demo</h2>' +
+          '<ul id="demos">' +
+            '<li><a href="http://soundcloud.com" target="_blank"><img src="images/sc.jpg" width="35" height="35"></a></li>' +
+            '<li><a href="http://youtube.com" target="_blank"><img src="images/yt.jpg" width="35" height="35"></a></li>' +
+          '</ul>' +
+          '</div>')
+        .addTo(map);
+
+
+        L.marker([-23.539, -46.630], {icon: mmmicon})
+        .bindPopup('<p id="taki_popup" class="popup">Taki Shimagi' +
+          '<a href="#"><img  src="images/message.png" height="10"></a>' +
+          '</p>' +
+          '<div id="popup_wrapper">' +
+          '<p>Comecei tocando covers de rock quando tinha 5 anos, hoje ainda toco alguns de rock indie mas estou focando em produção própria.</p>' +
+          '<h2>Toca</h2>' +
+          '<ul id="instrumentos">' +
+            '<li><p><strong>Baixo</strong> há 15 anos</p></li>' +
+            '<li><p><strong>Teclado</strong> desde sempre</p></li>' +
+          '</ul>' +
+          '<h2>Estilos</h2>' +
+          '<ul id="estilos">' +
+            '<li>Indie Rock</li>' +
+            '<li>Pop Rock</li>' +
+            '<li>Rock</li>' +
+          '</ul>' +
+          '<h2>Ouça uma demo</h2>' +
+          '<ul id="demos">' +
+            '<li><a href="http://soundcloud.com" target="_blank"><img src="images/sc.jpg" width="35" height="35"></a></li>' +
+            '<li><a href="http://youtube.com" target="_blank"><img src="images/yt.jpg" width="35" height="35"></a></li>' +
+          '</ul>' +
+          '</div>')
+        .addTo(map);
+    </script><!-- fim de add pontos no mapa -->
+
+    
+      <div class="container col-md-4  col-sm-6 col-xs-9" id="main_vp">
+        <h1>Encontre pessoas pra fazer um som</h1>
+        <p>Precisa de um vocalista pra sua banda de rock? Ou um violão pra acompanhar sua voz? Aqui é o lugar!</p>
+        
+      </div>
+
+    </div>
+
+    
+
+    
+    <div id="argumentos" class="container-fluid">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="argumento col-md-4">
+          <img src="images/Ilustra_01.png">
+          <h2>Complete sua banda</h2>
+          <p>Encontre o músico que faltava pra fazer o som que você sempre quis. </p>
+        </div>
+        <div class="argumento col-md-4">
+          <img src="images/Ilustra_02.png">
+          <h2>Músicos perto de você</h2>
+          <p>Quem sabe seu vizinho de baixo não é o baixo que faltava na sua banda? \o/</p>
+       </div>
+        <div class="argumento col-md-4">
+          <img src="images/Ilustra_03.png">
+          <h2>Pra todo mundo</h2>
+          <p>Filtre por experiência, e ouça uma demo pra saber se a pessoa é profissa ou tá começando</p>
+        </div>
+      </div>
+    </div>
+
+<div>
+  <div class="row" id="mailchimp">
+  <!-- Begin MailChimp Signup Form -->
+            <div class="form-group col-sm-6 col-sm-offset-3" id="mc_embed_signup">
+              <form action="//musicmeet.us11.list-manage.com/subscribe/post?u=49dd0cdee73cdefa50cdec479&amp;id=31067d83f2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+
+
+                  <div class="mc-field-group">
+                    <label for="mce-EMAIL">Estamos só passando o som. <br> Cadastre-se para estar entre os primeiros usuários!
+                    </label>
+                    <input type="email" value="" name="EMAIL" placeholder="Seu Email" class="required email, form-control" id="mce-EMAIL">
+                  </div>
+
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_49dd0cdee73cdefa50cdec479_31067d83f2" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Registre-se" name="subscribe" id="mc-embedded-subscribe" class="btn-black"></div>
+                </div>
+              </form>
+            </div>
+  </div>
+</div>
+<!--End mc_embed_signup-->
+      
+
+
+      <footer>
+        <h4><a href="mailto:musicmeet@gmail.com?Subject=Olá%20do%20site" target="_blanck">Fale com a gente</a></h4>
+        <p> Feito com ⚡ em São Paulo </p><p> &copy;musicmeet 2015</p>
+
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

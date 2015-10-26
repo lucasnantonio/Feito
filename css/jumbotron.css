@@ -1,0 +1,210 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-bottom:0px;
+  padding-bottom: 0px;
+  background-color: #222222;
+}
+
+.logo {
+width:180px;
+margin-top:10px;
+
+}
+
+.navbar{
+	margin-top:0px;
+	height:30px;
+	margin-bottom:50px;
+}
+
+.navbar-header{
+text-align: center;
+}
+
+
+.jumbotron{
+	height:670px;
+	text-align: left;
+	/*background-image:url('http://www.musicmeet.me/images/cover.png');*/
+	background-color: black;
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top:15px;
+
+}
+
+.jumbotron h1{
+	padding-top:0px;
+	font-size:32px; !important;
+	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif; 
+	color:white;
+
+}
+
+#main_vp {
+	position: absolute;
+	left:50px;
+	margin-top:100px;
+}
+
+#main_vp h1 {
+	font-size: 3.8em;
+	line-height: 1.2em;
+	margin-bottom:1em;
+}
+
+#main_vp p {
+	font-size: 2em;
+		line-height: 1.2em;
+}
+
+#argumentos{
+	background-color:white;
+	padding-top:70px;
+	padding-bottom: 70px;
+	text-align: center;
+	
+}
+
+#argumentos h2{
+		font-family: BrandonText-Bold, Helvetica, Arial, sans-serif; 
+		font-size: 24px;
+}
+
+#argumentos p{
+		font-family: BrandonText-Light, Helvetica, Arial, sans-serif;
+		font-size: 16px;
+}
+
+.argumento p{
+	padding:0% 10% 0% 10%;
+}
+
+.jumbotron p{
+	font-family: BrandonText-Light, Helvetica, Arial, sans-serif;
+	color:white;
+	opacity: 0.5;
+}
+
+@font-face{
+
+font-family: BrandonText-Bold;
+src: url('https://dl.dropboxusercontent.com/u/123061323/Fonts/BrandonText-Bold.otf');
+
+}
+
+@font-face{
+font-family: BrandonText-Light;
+src: url('https://dl.dropboxusercontent.com/u/123061323/Fonts/BrandonText-Light.otf');
+}
+
+#perfil{
+
+height:375;
+width:275;
+}
+
+#mailchimp{
+background-color:#7BFFC1;
+height:300px;
+width:100%;
+margin:0;
+padding:0;
+}
+
+#mc_embed_signup{
+padding-top:50px;
+text-align: center;
+}
+
+#mc_embed_signup label{
+	font-family: BrandonText-Bold;
+	font-size: 24px;
+	
+}
+
+#mc_embed_signup input[type="email"]{
+	font-family: BrandonText-Light;
+	font-size: 20px;
+	padding: 15px;
+	margin-top:30px;
+	margin-bottom: 30px;
+	height:50px;
+}
+
+#mc_embed_signup input[type="submit"]{
+	font-family: BrandonText-Bold;
+	font-size: 16px;
+	
+	
+	margin-bottom: 15px;
+	height:50px;
+}
+
+.btn-black{
+	background-color: #42496F;
+
+	color:white;
+	border:none;
+	border-radius: 2px;
+	padding:5px 20px 5px 20px;
+}
+
+.btn-black:hover{
+	opacity: 0.9;
+}
+
+footer{
+	padding: 20px 0 10px 0;
+	margin: 0;
+	background-color:#7BFFC1;
+	text-align: center;
+	font-family: BrandonText-Light;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer h4 {
+	padding-bottom: 10px;
+	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif;
+	margin: 0 0 20px;
+}
+
+footer a:hover {
+	color: #aaf;
+	text-decoration: none;
+}
+
+#mailchimp, footer{
+background-color:#616FBB;
+color:white;
+}
+
+@media screen and (max-width: 760px) {
+    .leaflet-popup{
+    	visibility:hidden;
+    }
+    #main_vp{
+    	margin-top: 30px;
+    }
+   .jumbotron #main_vp h1 {
+    	text-align: center;
+    	font-size: 3em;
+    }
+    .jumbotron #main_vp p {
+    	text-align: center;
+    	font-size: 1.8em;
+    }
+    .jumbotron{
+    	height:550px;
+    }
+
+}
