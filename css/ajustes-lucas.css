@@ -1,6 +1,7 @@
 #NEWSLETTER{
 background-color:#F1F0EE;
 color:#65635D;
+font-size:24px;
 }
 
 #NEWSLETTER h5{
@@ -11,7 +12,6 @@ input#mce-EMAIL{
 height:50px;
 padding:0px 20px;
 border-bottom:1px solid gray;
-font-size:18px;
 font-family:Oswald;
 font-weight:lighter;
 background-color:#E4E3E2;
@@ -63,10 +63,9 @@ border:0px solid #1742FF;
 	height:130%;
 	width:100%;
 	padding-top:auto;
-    background-color: rgba(0,0,0,.8);
-    background: url(img/dots.png) repeat;
+    background: rgba(0,0,0,.4);
     //margin-top:300px;
-	margin-left:10px;
+	//margin-left:10px;
 
 
             }
@@ -86,6 +85,13 @@ margin-right:20px;
 margin-top:-10px;
 }
 
+
+#NEWSLETTER input, #NEWSLETTER h5, #NEWSLETTER .btn-primary{
+font-size:16px;
+text-transform:NORAML;
+font-weight:bold;
+letter-spacing:.06em;
+}
 
 
 section{
