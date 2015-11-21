@@ -83,7 +83,7 @@ margin-top:130px;
 #NEWSLETTER input, #NEWSLETTER h5, #NEWSLETTER .btn-primary{
 font-size:16px;
 text-transform:NORMAL;
-font-weight:bold;
+font-weight:normal;
 letter-spacing:.06em;
 }
 
@@ -146,6 +146,7 @@ height:100px;
 color:white;
 font-style:italic;
 font-weight:lighter;
+text-align: center;
 
 }
 
