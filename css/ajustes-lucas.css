@@ -88,11 +88,34 @@ margin-top:-10px;
 
 #NEWSLETTER input, #NEWSLETTER h5, #NEWSLETTER .btn-primary{
 font-size:16px;
-text-transform:NORAML;
+text-transform:NORMAL;
 font-weight:bold;
 letter-spacing:.06em;
 }
 
+#mc-embedded-subscribe{
+clear: none;
+display:inline;
+position:relative;
+float:none;
+}
+
+
+
+#mc-embedded-subscribe.btn-primary{
+position:relative;
+width:40%;
+float:left;
+}
+
+#mc_embed_signup input{
+width:60%;
+float:left;
+}
+
+.form-group{
+margin-left:0px;
+}
 
 section{
 	background-color: white;
