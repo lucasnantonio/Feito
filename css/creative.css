@@ -66,7 +66,7 @@ h6 {
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 15px;
     line-height: 1.5;
 }
@@ -95,6 +95,11 @@ p {
 section {
     padding: 50px 0;
 }
+
+section#pontos {
+    padding-bottom: 100px;
+}
+
 
 aside {
     padding: 50px 0;

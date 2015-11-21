@@ -22,7 +22,7 @@ box-shadow:none;
 }
 
 .btn-primary{
-	padding:0px 20px;
+padding:0px 20px;
 height:50px;
 border-radius:2px;
 border:0px solid #0000FF;
@@ -71,7 +71,7 @@ border:0px solid #1742FF;
             }
 
  .header-content-inner {
-	margin-top: 300px;
+	margin-top: 320px;
 		text-align:left;
 
             }
@@ -101,7 +101,6 @@ float:none;
 }
 
 
-
 #mc-embedded-subscribe.btn-primary{
 position:relative;
 width:40%;
@@ -115,6 +114,25 @@ float:left;
 
 .form-group{
 margin-left:0px;
+}
+
+.container h4{
+font-weight:bold;
+margin-bottom:25px;
+}
+
+.container  a{
+border:1px solid #0000FF;
+padding:20px;
+border-radius:2px;
+margin-top:2em;
+}
+
+.container  a:hover{
+border:1px solid #0000FF;
+background-color:#0000FF;
+color:white;
+text-decoration:none;
 }
 
 section{
