@@ -203,6 +203,7 @@ aside {
 header {
     position: relative;
     width: 100%;
+    height:85%;
     min-height: auto;
     text-align: center;
     color: #fff;
