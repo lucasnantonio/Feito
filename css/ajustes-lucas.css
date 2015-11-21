@@ -63,7 +63,7 @@ border:0px solid #1742FF;
 	height:130%;
 	width:100%;
 	padding-top:auto;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.8);
     background: url(img/dots.png) repeat;
     //margin-top:300px;
 	margin-left:10px;
@@ -80,7 +80,9 @@ border:0px solid #1742FF;
 .header-content-inner h2{
 display:inline;
 }
-
+.header-content-inner img{
+width:90px;
+}
 
 
 
