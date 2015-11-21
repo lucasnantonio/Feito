@@ -1,3 +1,7 @@
+body{
+	overflow-x:hidden;
+}
+
 #NEWSLETTER{
 background-color:#F1F0EE;
 color:#65635D;
@@ -40,6 +44,13 @@ border:0px solid #1742FF;
 }
 
 
+.header-content {
+margin-top:200px;
+	text-align:center;
+
+
+            }
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -63,31 +74,8 @@ border:0px solid #1742FF;
 
 
 
-.header-content {
-	height:130%;
-	width:100%;
-	padding-top:auto;
-    background: rgba(0,0,0,.4);
-    //margin-top:300px;
-	//margin-left:10px;
 
 
-            }
-
- .header-content-inner {
-	margin-top: 320px;
-		text-align:left;
-
-            }
-
-.header-content-inner h2{
-display:inline;
-}
-.header-content-inner img{
-width:100px;
-margin-right:20px;
-margin-top:-10px;
-}
 
 
 #NEWSLETTER input, #NEWSLETTER h5, #NEWSLETTER .btn-primary{
