@@ -81,7 +81,9 @@ border:0px solid #1742FF;
 display:inline;
 }
 .header-content-inner img{
-width:90px;
+width:100px;
+margin-right:20px;
+margin-top:-10px;
 }
 
 
