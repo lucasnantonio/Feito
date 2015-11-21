@@ -138,6 +138,11 @@ section{
 	background-color: white;
 }
 
+#CONTATO p{
+color:white;
+font-style:italic;
+}
+
 section#tagline{
 padding:10	0px 0;
 }
