@@ -71,7 +71,14 @@ margin-top:130px;
   background:rgba(0,0,0,.5);
 }
 
-
+.header-content .overlay {
+    background-image: url(../img/header-pattern.gif);
+    background-repeat: repeat;
+    height: 100%;
+    min-height: 650px;
+    position: absolute;
+    width: 100%;
+}
 
 
 
