@@ -8,6 +8,10 @@ font-size:24px;
 padding-top:3px;
 }
 
+.text-muted{
+font-weight: lighter;
+}
+
 input#mce-EMAIL{
 height:50px;
 padding:0px 20px;
@@ -93,6 +97,11 @@ font-weight:bold;
 letter-spacing:.06em;
 }
 
+#pontos a{
+
+	font-weight: lighter;
+}
+
 #mc-embedded-subscribe{
 clear: none;
 display:inline;
@@ -137,6 +146,10 @@ text-decoration:none;
 
 section{
 	background-color: white;
+}
+
+section#tagline{
+padding:10	0px 0;
 }
 
 @media (min-aspect-ratio: 16/9) {
