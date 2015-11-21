@@ -1,0 +1,30 @@
+#NEWSLETTER h5{
+padding-top:3px;
+}
+
+input#mce-EMAIL{
+border-radius:0px;
+border:0px solid white;
+background-color:#222222;
+border-bottom:1px solid gray;
+font-size:18px;
+padding:20px;
+padding-left:0px;
+font-family:Oswald;
+//font-style:italic;
+font-weight:lighter;
+}
+
+.btn-primary{
+border-radius:2px;
+border:1px solid #0000FF;
+color:white;
+font-weight:light;
+padding:10px;
+
+}
+
+.btn-primary:hover{
+background-color:#1742FF;
+border:1px solid #1742FF;
+}
