@@ -187,7 +187,8 @@ background-color: #272822;
     //display:none;s
   }
     header .header-content img{
-margin-top:35%;
+      height:auto;
+      margin-top:20%;
   }
   .fullscreen-bg {
     height:100px;
