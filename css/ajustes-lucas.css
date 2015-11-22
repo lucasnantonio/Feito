@@ -177,7 +177,7 @@ padding:10	0px 0;
     display:none;
   }
   header{
-height:200px;
+height:50%;
 background-color: #272822;
   }
   header .header-content{
@@ -187,7 +187,7 @@ background-color: #272822;
     //display:none;s
   }
     header .header-content img{
-padding-top:75px;
+margin-top:35%;
   }
   .fullscreen-bg {
     height:100px;
