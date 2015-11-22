@@ -173,11 +173,63 @@ padding:10	0px 0;
 }
 
 @media (max-width: 767px) {
+  #overlay{
+    display:none;
+  }
+  header{
+height:200px;
+background-color: #272822;
+  }
+  header .header-content{
+    height:50px;
+    margin-top:0px;
+    padding:0px 0px 0px 0px;
+    //display:none;s
+  }
+    header .header-content img{
+padding-top:75px;
+  }
   .fullscreen-bg {
+    height:100px;
     background: url('../img/videoframe.jpg') center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
     display: none;
   }
+  #NEWSLETTER{
+    padding: 50px 0px;
+  }
+  #NEWSLETTER h5{
+    font-size:20px;
+    padding-bottom: 30px;
+    margin-top:0px;
+  }  
+
+  #NEWSLETTER input, #NEWSLETTER .btn-primary{
+    font-size:12px;
+  }
+
+  #tagline h3{
+
+      font-size:20px;
+  
+  }
+
+  section#pontos{
+    padding-bottom:10px;
+  }
+  .ponto{
+    margin-bottom: 80px;
+  }
+  #CONTATO{
+    padding:0px;
+    padding-top: 30px;
+  }
+
 }
+
+
+
+
+
