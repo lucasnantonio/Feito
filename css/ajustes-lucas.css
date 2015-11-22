@@ -173,22 +173,26 @@ padding:10	0px 0;
 }
 
 @media (max-width: 767px) {
+  body{
+    background-color: #272822;
+  }
   #overlay{
   display:none;
   }
   header{
-  height:50%;
+  height:auto;
   background-color: #272822;
   }
   header .header-content{
     //height:50px;
-    margin-top:0px;
+    margin-top:100px;
+    margin-bottom:100px;
     padding:0px 0px 0px 0px;
     //display:none;
     vertical-align: middle;
   }
     header .header-content img{
-      margin-top:20%;
+   
 
   }
   .fullscreen-bg {
