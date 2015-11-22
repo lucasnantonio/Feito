@@ -174,21 +174,22 @@ padding:10	0px 0;
 
 @media (max-width: 767px) {
   #overlay{
-    display:none;
+  display:none;
   }
   header{
-height:50%;
-background-color: #272822;
+  height:50%;
+  background-color: #272822;
   }
   header .header-content{
-    height:50px;
+    //height:50px;
     margin-top:0px;
     padding:0px 0px 0px 0px;
-    //display:none;s
+    //display:none;
+    vertical-align: middle;
   }
     header .header-content img{
-      height:auto;
       margin-top:20%;
+
   }
   .fullscreen-bg {
     height:100px;
