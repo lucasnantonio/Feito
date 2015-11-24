@@ -174,7 +174,7 @@ padding:10	0px 0;
 
 @media (max-width: 767px) {
   body{
-    background-color: #272822;
+    background-color: #272822;  
   }
   #overlay{
   display:none;
