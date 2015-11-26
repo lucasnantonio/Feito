@@ -215,7 +215,7 @@ section#gallery .foto-galeria{
   border:5px solid white;
 }
 section#gallery #foto-galeria-1{
-  background: url("../img/foto-galeria1.jpg");
+  background: url("../img/foto-galeria1.png");
   background-size: cover;
 }
 section#gallery #foto-galeria-2{
@@ -223,11 +223,11 @@ section#gallery #foto-galeria-2{
   background-size: cover;
 }
 section#gallery #foto-galeria-3{
-  background: url("../img/foto-galeria3.jpg");
+  background: url("../img/foto-galeria3.png");
   background-size: cover;
 }
 section#gallery #foto-galeria-4{
-  background: url("../img/foto-galeria4.jpg");
+  background: url("../img/foto-galeria4.png");
   background-size: cover;
 }
 
