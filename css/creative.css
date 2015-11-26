@@ -114,8 +114,9 @@ section {
 }
 
 section#pontos{
-    height:550px;
-    padding-top:150px;
+    height:auto;
+    padding-top:120px;
+    padding-bottom: 120px;
 }
 
 section#tagline{

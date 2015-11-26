@@ -16,6 +16,7 @@ padding-top:3px;
 font-weight: lighter;
 font-size:1.2em;
 color:#ABABAB;
+margin-bottom: 0px;
 }
 
 input#mce-EMAIL{
@@ -304,6 +305,7 @@ section#gallery #foto-galeria-4{
   }
 
   section#pontos{
+    padding-top:100px;
     height:auto;
   }
   #gallery{
