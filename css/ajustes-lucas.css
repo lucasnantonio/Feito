@@ -58,6 +58,9 @@ margin-top:130px;
 	text-align:center;
 
             }
+ .header-content{
+  text-style:normal;
+ }           
 
 .fullscreen-bg {
   position: fixed;
