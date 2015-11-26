@@ -14,14 +14,18 @@ padding-top:3px;
 
 .text-muted{
 font-weight: lighter;
+font-size:1.2em;
+color:#ABABAB;
 }
 
 input#mce-EMAIL{
 height:50px;
+width:100%;
 padding:0px 20px;
 border-bottom:1px solid gray;
 font-family:Oswald;
 font-weight:lighter;
+text-align: center;
 background-color:#E4E3E2;
 border:0px solid white;
 border-radius:2px;
@@ -29,18 +33,23 @@ box-shadow:none;
 
 }
 
+input#mc-embedded-subscribe.btn-primary{
+  width:100%;
+  margin-top:10px;
+}
+
 .btn-primary{
 padding:0px 20px;
 height:50px;
 border-radius:2px;
-border:0px solid #0000FF;
+border:0px solid #000;
 font-weight:light;
 background-color:#65635D;
 }
 
 .btn-primary:hover{
-background-color:#1742FF;
-border:0px solid #1742FF;
+background-color:#797772;
+border:0px solid #000;
 }
 
 
@@ -92,44 +101,24 @@ letter-spacing:.06em;
 	font-weight: lighter;
 }
 
-#mc-embedded-subscribe{
-clear: none;
-display:inline;
-position:relative;
-float:none;
-}
 
-
-#mc-embedded-subscribe.btn-primary{
-position:relative;
-width:40%;
-float:left;
-}
-
-#mc_embed_signup input{
-width:60%;
-float:left;
-}
-
-.form-group{
-margin-left:0px;
-}
 
 .container h4{
-font-weight:bold;
+font-weight:bolder;
+font-size: 1.10em;
 margin-bottom:25px;
 }
 
 .container  a{
-border:1px solid #0000FF;
+border:1px solid #000;
 padding:20px;
 border-radius:2px;
 margin-top:2em;
 }
 
 .container  a:hover{
-border:1px solid #0000FF;
-background-color:#0000FF;
+border:1px solid #000;
+background-color:#000;
 color:white;
 text-decoration:none;
 }
@@ -138,23 +127,105 @@ section{
 	background-color: white;
 }
 
+section#tagline{
+  background-color:#F5f5f5;
+  height:auto;
+  padding-top:120px;
 
-#CONTATO {
-height:150px;
-padding-top:150px;
-padding-bottom:150px;
 }
+
+section#tagline h3{
+font-size:25px;
+
+}
+
+
+footer#CONTATO {
+  background-color: black;
+height:auto;
+padding-top:10px;
+padding-bottom:100px;
+}
+footer#CONTATO input{
+  width:100%;
+}
+
+footer#CONTATO hr{
+  border:1px solid white;
+}
+
 #CONTATO p{
 color:white;
 font-style:italic;
 font-weight:lighter;
 text-align: center;
 margin-bottom:0px;
-
 }
 
-section#tagline{
-padding:10	0px 0;
+#CONTATO .container{
+width:100%;
+}
+
+#CONTATO h5{
+  text-align: center;
+  color:white;
+margin:100px 0px 50px 0px;
+}
+
+#CONTATO .mailto p{
+  margin-top: 50px;
+  color:#F4F4F4;
+}
+
+#CONTATO .mailto a{
+  color:#F4F4F4;
+  text-decoration: underline;
+  border: 0px solid white;
+}
+#CONTATO .mailto p a:hover{
+  color:white;
+  text-decoration: underline;
+  border: 0px solid white;
+  background-color:rgba(0,0,0,0);
+}
+
+#feitoemsp{
+  margin-top:50px;
+}
+
+section#gallery{
+height:900px;
+  //background-color: red;  
+  padding:0px 100px 50px 100px;
+  color:white;
+  text-align: center;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+section#gallery .foto-galeria{
+  background-color:blue;
+  height:400px;
+  line-height: 400px;
+  padding-top:auto;
+  border:5px solid white;
+}
+section#gallery #foto-galeria-1{
+  background: url("../img/foto-galeria1.jpg");
+  background-size: cover;
+}
+section#gallery #foto-galeria-2{
+  background: url("../img/foto-galeria2.png");
+  background-size: cover;
+}
+section#gallery #foto-galeria-3{
+  background: url("../img/foto-galeria3.jpg");
+  background-size: cover;
+}
+section#gallery #foto-galeria-4{
+  background: url("../img/foto-galeria4.jpg");
+  background-size: cover;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -181,7 +252,7 @@ padding:10	0px 0;
   }
   header{
   height:auto;
-  background-color: #272822;
+  background-color: #22822;
   }
   header .header-content{
     //height:50px;
@@ -216,23 +287,31 @@ padding:10	0px 0;
     font-size:12px;
   }
 
+
+
   #tagline h3{
 
-      font-size:20px;
+      font-size:3em;
   
   }
 
-  section#pontos{
-    padding-bottom:10px;
-  }
   .ponto{
     margin-bottom: 80px;
   }
-  #CONTATO{
-    padding:0px;
-    padding-top: 30px;
-  }
 
+  section#pontos{
+    height:auto;
+  }
+  #gallery{
+    display:none;
+  }
+}
+
+
+
+
+p{
+  color:#e3e3e3;
 }
 
 
