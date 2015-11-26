@@ -17,7 +17,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #0000FF;
+    border-color: #BBBDC0;
     border-width: 3px;
 }
 
@@ -26,7 +26,7 @@ hr.light {
 }
 
 a {
-    color: #0000FF;
+    color: #BBBDC0;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -55,7 +55,7 @@ h4 {
     letter-spacing: 2px;
     font-size: 14px;
     line-height: 150%;
-    color: #0000FF;
+    color: #BBBDC0;
 }
 
 
@@ -73,7 +73,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #0000FF;
+    background-color: #BBBDC0;
 }
 
 .bg-secondary {
@@ -124,7 +124,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #0000FF;
+    color: #BBBDC0;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -142,12 +142,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #0000FF;
+    color: #BBBDC0;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #0000FF!important;
+    color: #BBBDC0!important;
     background-color: transparent;
 }
 
@@ -188,7 +188,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #0000FF;
+        color: #BBBDC0;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -203,7 +203,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #0000FF;
+        color: #BBBDC0;
     }
 }
 
@@ -342,7 +342,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #0000FF;
+    color: #BBBDC0;
 }
 
 .no-gutter > [class*=col-] {
@@ -352,8 +352,8 @@ header .header-content .header-content-inner p {
 
 .btn-default {
     border-color: #fff;
-    color: #0000FF;
-    background-color: #0000FF;
+    color: #BBBDC0;
+    background-color: #BBBDC0;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -365,9 +365,9 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #0000FF;
-    color: #0000FF;
-    background-color: #0000FF;
+    border-color: #BBBDC0;
+    color: #BBBDC0;
+    background-color: #BBBDC0;
 }
 
 .btn-default:active,
@@ -395,22 +395,22 @@ fieldset[disabled] .btn-default:active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
     border-color: #fff;
-    background-color: #0000FF;
+    background-color: #BBBDC0;
 }
 
 .btn-default .badge {
     color: #fff;
-    background-color: #0000FF;
+    background-color: #BBBDC0;
 }
 
 .btn-primary {
-    border-color: #0000FF;
+    border-color: #BBBDC0;
     color: #fff;
     font-family: 'Oswald';
     letter-spacing: 1px;
     font-size: 14px;
     padding: 7px;
-    background-color: #0000FF;
+    background-color: #BBBDC0;
     -webkit-transition: all .05s;
     -moz-transition: all .05s;
     transition: all .05s;
@@ -422,7 +422,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #0000FF;
+    border-color: #BBBDC0;
     color: #fff;
     background-color: #222;
 }
@@ -451,13 +451,13 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #0000FF;
-    background-color: #0000FF;
+    border-color: #BBBDC0;
+    background-color: #BBBDC0;
 }
 
 .btn-primary .badge {
-    color: #0000FF;
-    background-color: #0000FF;
+    color: #BBBDC0;
+    background-color: #BBBDC0;
 }
 
 .btn {
@@ -475,13 +475,13 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
-    background: #0000FF;
+    background: #BBBDC0;
 }
 
 ::selection {
     text-shadow: none;
     color: #fff;
-    background: #0000FF;
+    background: #BBBDC0;
 }
 
 img::selection {
@@ -495,5 +495,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #0000FF;
+    webkit-tap-highlight-color: #BBBDC0;
 }
