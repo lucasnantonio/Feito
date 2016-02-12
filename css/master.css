@@ -625,7 +625,7 @@ body .section-full.progress img {
   width: 49%;
   margin-left: 0%;
   margin-right: 2%;
-  margin-bottom: 2em;
+  margin-bottom: 2%;
 }
 body .section-full.progress img:before,
 body .section-full.progress img:after {
@@ -753,6 +753,27 @@ body .btn.button-facebook:after {
   display: table;
 }
 body .btn.button-facebook:after {
+  clear: both;
+}
+body .btn.button-instagram {
+  *zoom: 1;
+  width: auto;
+  max-width: 13em;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 4em;
+  margin-bottom: 0em;
+}
+body .btn.button-instagram:before,
+body .btn.button-instagram:after {
+  content: '';
+  display: table;
+}
+body .btn.button-instagram:after {
   clear: both;
 }
 body li.selected {
